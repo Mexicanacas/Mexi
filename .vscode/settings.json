@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": {
+    // Run ESLint on save
+    "source.fixAll.eslint": true,
+    // Run Prettier on save
+    "source.fixAll": true
+  },
+  "eslint.alwaysShowStatus": true,
+}
