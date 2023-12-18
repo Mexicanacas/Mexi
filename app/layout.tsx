@@ -13,7 +13,7 @@ const RootLayout: FC<Props> = ({ children }) => {
       <head>
         <title>Mexi</title>
       </head>
-      <body>
+      <body className="bg-lime-100">
         <Header />
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
           {children}
