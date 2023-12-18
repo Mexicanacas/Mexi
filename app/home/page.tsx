@@ -2,8 +2,6 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <>
-      <h1>Los Mexicanacas</h1>
       <div style={{
         position: 'fixed',
         top: 0,
@@ -13,8 +11,7 @@ export default function Home() {
         overflow: 'hidden',
         zIndex: -1
       }}>
-        <Image src="/background-image.jpg" alt="Bilde av sanger" width={1000} height={1000}></Image>
+        <Image src="/background-image.jpg" alt="Bilde av sanger" fill={true} loading="lazy"></Image>
       </div>
-    </>
   )
 }

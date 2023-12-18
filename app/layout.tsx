@@ -1,20 +1,19 @@
 import React, { FC, ReactNode } from 'react';
-import Head from 'next/head';
 
 import './globals.css'
 import { Header } from './header/Header';
 
-type LayoutProps = {
+type Props = {
   children: ReactNode;
   title?: string;
 };
 
-const RootLayout: FC<LayoutProps> = ({ children, title = 'Mexi' }) => {
+const RootLayout: FC<Props> = ({ children, title = 'Mexi' }) => {
   return (
     <html lang="no">
-      <Head>
+      <head>
         <title>{title}</title>
-      </Head>
+      </head>
       <body>
       <Header />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">{children}</main>
