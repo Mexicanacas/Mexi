@@ -13,9 +13,9 @@ const RootLayout: FC<Props> = ({ children }) => {
       <head>
         <title>Mexi</title>
       </head>
-      <body className="bg-lime-100">
+      <body>
         <Header />
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="flex min-h-screen flex-col items-center justify-between overflow-y-auto">
           {children}
         </main>
         <footer>{/* Your footer content goes here */}</footer>

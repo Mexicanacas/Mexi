@@ -1,6 +1,6 @@
 const Booking = () => {
   return (
-    <div>
+    <div className="p-10">
       <p>
         Hva gjør vi? Vi underholder med skjødesløs Latin-Amerikansk-inspirert
         musikk til alles forlystelse. Vi er det unaturlige førstevalget for
