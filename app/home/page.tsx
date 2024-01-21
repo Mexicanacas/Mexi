@@ -1,11 +1,11 @@
 import { About } from './components/About';
-import Background from './components/Background';
+
+import './home.css';
 
 export default function Home() {
   return (
-    <>
-      <Background />
+    <div className="home">
       <About />
-    </>
+    </div>
   );
 }

@@ -9,13 +9,14 @@ export const Header = () => {
           <li>
             <Link href="/booking">Booking</Link>
           </li>
-          <li>
+          <li className="relative top-10">
             <Link href="/">
               <Image
                 src="/logo.png"
                 alt="Logo"
-                fill={true}
-                objectFit="contain"
+                height="150"
+                width="150"
+                style={{ aspectRatio: 'auto', height: 'auto', width: 'auto' }}
               />
             </Link>
           </li>
