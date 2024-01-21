@@ -2,7 +2,7 @@ import './booking.css';
 
 const Booking = () => {
   return (
-    <div className="booking">
+    <div className="full-page-component booking">
       <p>
         Hva gjør vi? Vi underholder med skjødesløs Latin-Amerikansk-inspirert
         musikk til alles forlystelse. Vi er det unaturlige førstevalget for

@@ -4,7 +4,7 @@ import './home.css';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="full-page-component home">
       <About />
     </div>
   );
