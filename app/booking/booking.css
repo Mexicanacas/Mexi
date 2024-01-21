@@ -8,4 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40% 20% 10%;
+  gap: 2rem;
 }
