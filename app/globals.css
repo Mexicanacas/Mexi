@@ -5,6 +5,7 @@
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-color: #101010;
+  --header-height: 7rem;
 }
 
 body {
@@ -14,7 +15,6 @@ body {
 }
 
 .full-page-component {
-  background-image: var(--background-color);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

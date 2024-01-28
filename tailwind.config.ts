@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'mexi-black': '#101010'
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'homepage': "url('/homepage-image.jpg')",
+        'album': "url('/album-image.jpg')",
+        'booking': "url('/booking-image.jpg')",
       },
     },
   },
