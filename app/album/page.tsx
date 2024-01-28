@@ -14,8 +14,8 @@ const PlataTracks = [
 ];
 
 const Album = () => (
-  <div className="full-page-component min-h-screen bg-album">
-    <div className="grid grid-cols-1 justify-items-center space-x-4 space-y-4 align-middle md:grid-cols-2">
+  <div className="full-page-component min-h-screen justify-center bg-album">
+    <div className="grid grid-cols-1 justify-items-center space-x-12 space-y-12 align-middle md:grid-cols-2">
       <AlbumCover src="/el-pe-cover.jpg" alt="Cover for utgivelsen El Pé" />
       <AlbumInfo title="El Pé" tracks={ElPeTracks} />
       <AlbumInfo title="Plata" tracks={PlataTracks} />

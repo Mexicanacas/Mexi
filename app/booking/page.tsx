@@ -1,6 +1,6 @@
 const Booking = () => {
   return (
-    <div className="full-page-component bg-booking p-12">
+    <div className="full-page-component justify-center bg-booking p-12">
       <section className="bg-mexi-black bg-opacity-50 p-4">
         <p>
           Hva gjør vi? Vi underholder med skjødesløs Latin-Amerikansk-inspirert
