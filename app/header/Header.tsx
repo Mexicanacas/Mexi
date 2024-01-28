@@ -4,10 +4,12 @@ import Image from 'next/image';
 export const Header = () => {
   return (
     <header>
-      <nav>
-        <ul className="flex fixed justify-between items-center p-4 h-28 bg-black w-screen bg-opacity-10 gap-5 text-4xl">
+      <nav className="fixed w-screen bg-mexi-black bg-opacity-50 p-4 ">
+        <ul className="flex h-12 items-center justify-between md:text-4xl">
           <li>
-            <Link href="/booking">Booking</Link>
+            <Link href="/booking" className="hover:underline">
+              Booking
+            </Link>
           </li>
           <li className="relative top-10">
             <Link href="/">
@@ -21,7 +23,9 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/album">Album</Link>
+            <Link href="/album" className="hover:underline">
+              Album
+            </Link>
           </li>
         </ul>
       </nav>
