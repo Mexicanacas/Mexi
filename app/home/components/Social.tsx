@@ -1,8 +1,8 @@
-export const About = () => {
+export const Social = () => {
   return (
     <div>
       <h1 className="text-4xl">Vi er Los Mexicanacas!</h1>
-      <div className="text-4xl flex justify-around">
+      <div className="flex justify-around text-4xl">
         <a href="https://www.instagram.com/mexicanacas?igsh=b3B5N3ZycnI0YzBx">
           <i className="fa-brands fa-instagram" />
         </a>
