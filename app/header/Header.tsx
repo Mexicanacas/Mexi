@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header>
       <nav className="fixed w-screen bg-mexi-black bg-opacity-50 p-4 ">
-        <ul className="flex h-12 items-center justify-between md:text-4xl">
+        <ul className="flex h-12 items-center justify-around md:text-4xl">
           <li>
             <Link href="/booking" className="hover:underline">
               Booking
