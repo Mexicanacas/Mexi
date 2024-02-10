@@ -3,7 +3,8 @@ import { CreditAndre } from '../core/components/CreditAndre';
 const Booking = () => {
   return (
     <div className="full-page-component justify-between bg-booking p-12">
-      <section className="mt-28 flex flex-col gap-4 bg-mexi-black bg-opacity-50 p-4 md:mx-20">
+      <div></div> {/* Empty tag that makes content place itself nicely */}
+      <section className=" flex flex-col gap-4 bg-mexi-black bg-opacity-50 p-4 md:mx-20">
         <h1>Booking</h1>
         <p>
           Vi er et band som spiller akustisk latin fusion-musikk - med
