@@ -27,8 +27,8 @@ const Booking = () => {
           eller{' '}
           <a className="underline" href="mailto:trondheim@mexi.no">
             trondheim@mexi.no
-          </a>
-          .
+          </a>{' '}
+          avhengig av hvor oppdraget finner sted.
         </p>
       </section>
       <CreditAndre />
