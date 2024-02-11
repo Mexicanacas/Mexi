@@ -26,8 +26,8 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="/album" className="hover:underline">
-              Album
+            <Link href="/about" className="hover:underline">
+              Om oss
             </Link>
           </li>
         </ul>
