@@ -15,18 +15,20 @@ const PlataTracks = [
 ];
 
 const Album = () => (
-  <div className="full-page-component min-h-screen justify-between bg-album">
-    <div className="mt-28 grid grid-cols-1 justify-items-center space-x-12 space-y-12 align-middle md:grid-cols-2">
+  <div className="full-page-component justify-between bg-album">
+    <div className="mt-header md:mt-logo-big grid grid-cols-1 items-center justify-items-center gap-4 p-4 md:grid-cols-2">
       <AlbumCover
         src="/el-pe-cover.jpg"
         alt="Cover for utgivelsen El Pé"
         credit="Grafikk av Lovinda Ødegården"
+        href="https://open.spotify.com/album/5YksxKdjfI0cBAMkwWLLkQ?si=B3EP0nRlRkugiLFoqJmdzw"
       />
       <AlbumInfo title="El Pé" tracks={ElPeTracks} />
       <AlbumCover
         src="/plata-cover.png"
         alt="Cover for utgivelsen Plata"
         credit="Grafikk av Ole Bøe Andreasen"
+        href="https://open.spotify.com/album/5I2j5UPKxM1VBdj0c2agOM?si=0WPjoDhLS62x1cXijEoW9g"
       />
       <AlbumInfo title="Plata" tracks={PlataTracks} />
     </div>

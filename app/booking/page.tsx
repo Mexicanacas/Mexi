@@ -2,9 +2,9 @@ import { CreditAndre } from '../core/components/CreditAndre';
 
 const Booking = () => {
   return (
-    <div className="full-page-component justify-between bg-booking p-12">
+    <div className="full-page-component justify-between bg-booking p-4 md:p-12">
       <div></div> {/* Empty tag that makes content place itself nicely */}
-      <section className=" flex flex-col gap-4 bg-mexi-black bg-opacity-50 p-4 md:mx-20">
+      <section className="flex flex-col gap-4 bg-mexi-black bg-opacity-50 p-4 md:mx-20">
         <h1>Booking</h1>
         <p>
           Vi er et band som spiller akustisk latin fusion-musikk - med
@@ -20,8 +20,15 @@ const Booking = () => {
           gang en fest. Andre ganger har vi full lydprøve med konsert-rigg.
         </p>
         <p>
-          Kontakt oss på <a href="mailto:oslo@mexi.no">oslo@mexi.no</a> eller{' '}
-          <a href="mailto:trondheim@mexi.no">trondheim@mexi.no</a>.
+          Kontakt oss på{' '}
+          <a className="underline" href="mailto:oslo@mexi.no">
+            oslo@mexi.no
+          </a>{' '}
+          eller{' '}
+          <a className="underline" href="mailto:trondheim@mexi.no">
+            trondheim@mexi.no
+          </a>
+          .
         </p>
       </section>
       <CreditAndre />

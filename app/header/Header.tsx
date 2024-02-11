@@ -4,21 +4,24 @@ import Image from 'next/image';
 export const Header = () => {
   return (
     <header>
-      <nav className="fixed w-screen bg-mexi-black bg-opacity-50 p-4 ">
+      <nav className="h-header fixed w-screen bg-mexi-black bg-opacity-50 p-4">
         <ul className="flex h-12 items-center justify-around md:text-4xl">
           <li>
             <Link href="/booking" className="hover:underline">
               Booking
             </Link>
           </li>
-          <li className="relative top-10">
-            <Link href="/">
+          <li>
+            <Link
+              href="/"
+              className="h-header md:h-logo-big relative block w-auto md:top-12"
+            >
               <Image
                 src="/logo.png"
                 alt="Logo"
-                height="150"
-                width="150"
-                style={{ aspectRatio: 'auto', height: 'auto', width: 'auto' }}
+                width={500}
+                height={500}
+                className="aspect-auto h-full w-auto"
               />
             </Link>
           </li>
