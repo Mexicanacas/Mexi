@@ -1,7 +1,7 @@
 export const Social = () => {
   return (
-    <div>
-      <h1 className="text-4xl">Vi er Los Mexicanacas!</h1>
+    <section className="flex flex-col gap-4">
+      <h1 className="text-2xl md:text-4xl">Los Mexicanacas!</h1>
       <div className="flex justify-around text-4xl">
         <a href="https://www.instagram.com/mexicanacas?igsh=b3B5N3ZycnI0YzBx">
           <i className="fa-brands fa-instagram" />
@@ -16,6 +16,6 @@ export const Social = () => {
           <i className="fa-solid fa-envelope" />
         </a>
       </div>
-    </div>
+    </section>
   );
 };

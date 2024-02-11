@@ -16,6 +16,10 @@ const config: Config = {
         'album': "url('/album-image.jpg')",
         'booking': "url('/booking-image.jpg')",
       },
+      spacing: {
+        'header': '80px',
+        'logo-big': '160px'
+      },
     },
   },
   plugins: [],
