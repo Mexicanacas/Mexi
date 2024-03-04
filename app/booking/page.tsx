@@ -4,7 +4,7 @@ const Booking = () => {
   return (
     <div className="full-page-component justify-between bg-booking p-4 md:p-12">
       <div></div> {/* Empty tag that makes content place itself nicely */}
-      <section className="flex flex-col gap-4 bg-mexi-black bg-opacity-50 p-4 md:mx-20">
+      <section className="flex flex-col gap-4 bg-mexi-black bg-opacity-50 p-4 mt-20 md:mt-0 md:mx-20">
         <h1>Booking</h1>
         <p>
           Vi er et band som spiller akustisk latin fusion-musikk - med
