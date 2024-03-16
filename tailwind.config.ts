@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -9,19 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'mexi-black': '#101010'
-      },
-      backgroundImage: {
-        'homepage': "url('/homepage-image.jpg')",
-        'album': "url('/album-image.jpg')",
-        'booking': "url('/booking-image.jpg')",
+        'mexi-black': '#101010',
       },
       spacing: {
-        'header': '80px',
-        'logo-big': '160px'
+        header: '80px',
+        'logo-big': '160px',
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
