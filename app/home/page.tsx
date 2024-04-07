@@ -7,12 +7,10 @@ import { BackgroundImage } from '../core/components/BackgroundImage';
 export default function Home() {
   return (
     <div>
-      <div className="bgWrap">
-        <BackgroundImage
-          alt="Mexicanacas"
-          src="/homepage-image.jpg"
-        />
-      </div>
+      <BackgroundImage
+        alt="Mexicanacas"
+        src="/homepage-image.jpg"
+      />
       <div className="full-page-component justify-end p-12">
         <CreditAndre />
         <Social />

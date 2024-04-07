@@ -4,12 +4,10 @@ import { BackgroundImage } from '../core/components/BackgroundImage';
 
 const About = () => (
   <div>
-    <div className="bgWrap">
-      <BackgroundImage
-        alt="Mexicanacas"
-        src="/album-image.jpg"
-      />
-    </div>
+    <BackgroundImage
+      alt="Mexicanacas"
+      src="/album-image.jpg"
+    />
     <div className="full-page-component justify-between">
       <Albums />
       <CreditAndre />
